@@ -18,8 +18,8 @@ Ce dépôt sert uniquement à **distribuer les installateurs de LocaLink**. Il n
 
 | Système | Fichier | Configuration requise |
 |---|---|---|
-| Windows | [LocaLink-Setup-windows.exe](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-Setup-windows.exe) | Windows 10 (1809) ou plus récent, 64 bits |
-| macOS | [LocaLink-macos.dmg](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-macos.dmg) | macOS 12 ou plus récent, Apple Silicon et Intel |
+| Windows | [LocaLink-windows-x64-setup.exe](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-windows-x64-setup.exe) | Windows 10 (1809) ou plus récent, 64 bits |
+| macOS | [LocaLink-macos-universal.dmg](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-macos-universal.dmg) | macOS 12 ou plus récent, Apple Silicon et Intel |
 | Linux (.deb) | [LocaLink-linux-amd64.deb](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-linux-amd64.deb) | Ubuntu 22.04, Debian 12 ou équivalent |
 | Linux (AppImage) | [LocaLink-linux-x86_64.AppImage](https://github.com/Oumarou121/localink-releases/releases/latest/download/LocaLink-linux-x86_64.AppImage) | Toute distribution 64 bits récente |
 
@@ -38,7 +38,7 @@ Les données restent sur vos postes. Aucune connexion Internet n'est nécessaire
 
 ## Installer
 
-**Windows** : lancez `LocaLink-Setup-windows.exe`. L'installateur ajoute la règle de pare-feu nécessaire.
+**Windows** : lancez `LocaLink-windows-x64-setup.exe`. L'installateur ajoute la règle de pare-feu nécessaire.
 
 **macOS** : ouvrez le `.dmg` et glissez LocaLink dans le dossier Applications.
 
@@ -73,11 +73,11 @@ Chaque version publie un fichier `SHA256SUMS.txt` avec l'empreinte de chaque ins
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\LocaLink-Setup-windows.exe -Algorithm SHA256
+Get-FileHash .\LocaLink-windows-x64-setup.exe -Algorithm SHA256
 ```
 ```sh
 # macOS / Linux
-shasum -a 256 LocaLink-macos.dmg
+shasum -a 256 LocaLink-macos-universal.dmg
 sha256sum LocaLink-linux-amd64.deb
 ```
 
