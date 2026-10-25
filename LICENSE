@@ -1,0 +1,61 @@
+CONTRAT DE LICENCE UTILISATEUR — LOCALINK
+
+Copyright (c) 2026 Nexis. Tous droits réservés.
+
+LocaLink (« le Logiciel ») est un logiciel propriétaire édité par Nexis
+(https://nexistec.com). Ce dépôt distribue uniquement ses installateurs.
+Télécharger, installer ou utiliser le Logiciel vaut acceptation du présent
+contrat.
+
+1. Droit d'utilisation
+   Nexis vous accorde un droit d'utilisation non exclusif et non transférable
+   du Logiciel, sous forme exécutable, pour les besoins de votre organisation.
+   - Version gratuite : utilisable sans licence, dans les limites fixées par le
+     Logiciel.
+   - Plans Pro et Entreprise : utilisables dans la limite du nombre de postes
+     et de la version majeure indiqués dans la licence achetée. La licence est
+     définitive : elle couvre toutes les versions mineures de la version
+     majeure achetée (par exemple 1.x). Le passage à une nouvelle version
+     majeure peut faire l'objet d'une mise à niveau payante.
+
+2. Restrictions
+   Sauf accord écrit de Nexis ou disposition légale impérative, vous ne pouvez
+   pas :
+   - décompiler, désassembler ou tenter d'obtenir le code source du Logiciel ;
+   - contourner, désactiver ou modifier le système de licence ;
+   - vendre, louer ou sous-licencier le Logiciel ou une licence ;
+   - redistribuer les installateurs en dehors de votre organisation, ou les
+     modifier.
+   Un code d'activation ou un fichier de licence est personnel à
+   l'organisation qui l'a acheté et ne doit pas être partagé.
+
+3. Propriété
+   Le Logiciel reste la propriété de Nexis. Ce contrat ne vous transfère aucun
+   droit de propriété intellectuelle. Les composants tiers inclus dans le
+   Logiciel (Qt, OpenSSL, libdatachannel, libvpx, SQLite…) restent soumis à
+   leurs propres licences, fournies avec le Logiciel.
+
+4. Données
+   Le Logiciel fonctionne sur votre réseau local. Vos messages, fichiers et
+   comptes restent sur vos postes. Seule l'activation en ligne d'une licence
+   transmet à Nexis le code d'activation, le code du poste, son nom et la
+   version du Logiciel.
+
+5. Garantie et responsabilité
+   Le Logiciel est fourni « en l'état ». Dans les limites permises par la loi,
+   Nexis n'accorde aucune garantie, expresse ou implicite, et ne pourra être
+   tenu responsable d'aucun dommage indirect, perte de données ou perte
+   d'exploitation résultant de l'utilisation du Logiciel. Il vous appartient
+   de sauvegarder vos données.
+
+6. Résiliation
+   Ce contrat prend fin automatiquement si vous en violez les termes. Vous
+   devez alors cesser d'utiliser le Logiciel. Nexis peut désactiver une
+   licence obtenue ou utilisée frauduleusement.
+
+7. Droit applicable
+   Ce contrat est régi par le droit du pays du siège de Nexis. Tout litige
+   relève des juridictions compétentes de ce pays, après tentative de
+   règlement amiable.
+
+Contact : https://nexistec.com
